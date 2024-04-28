@@ -1,0 +1,54 @@
+html {
+  background-color:#ccc;
+}
+
+h1.page-header{
+  font-family: inknut-antiqua, serif;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  text-shadow: 4px 4px 4px #aaa;
+}
+
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Sans-serif;
+  background-color: #fff;
+  max-width:960px;
+  width:90%;
+  margin: auto;
+  padding: 1%;
+  text-align: center;
+}
+
+nav {
+  text-align: center;
+  /*align center*/
+}
+
+nav a{
+  color:#000
+  /*font color*/
+}
+
+nav ul{
+  list-style: none; 
+  /*this specification removes the bullet format*/
+}
+
+nav li {
+  display: inline-block; /*makes li horiontal,*/
+  margin: 0 2% /*margin LR, gets smaller as necessary*/
+}
+
+nav a:hover{
+  text-decoration: none; /*removes the default underline of hover*/
+}
+
+footer {
+  clear: both;
+  text-align: center;
+  bottom: 0;
+  position:fixed;
+  background-color: #fff; 
+  width: 100%;
+}
